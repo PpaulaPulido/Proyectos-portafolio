@@ -6,7 +6,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: nexa;
+    font-family: 'Playfair Display', serif;
 }
 /*Estilos para la barra de navegacion*/
 .navbar {
@@ -33,10 +33,10 @@ body {
     color: rgb(104, 248, 193);
 }
 .briefcase{
-    font-size: 30px;
+    font-size: 35px;
 }
 .nav-text{
-    font-size: 18px;
+    font-size: 23px;
 }
 
 @media (min-width: 768px){ 
@@ -48,7 +48,50 @@ body {
     }
 }
 /*estilos del main*/
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    text-shadow: 0 0 2px rgb(104, 248, 193);
 
+}
+#container{
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    width: 50%;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 2px 2px 4px rgba(5, 0, 0, 0.3);
+}
+.card h2{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+.card button{
+    margin-top: 15px;
+    background-color: #038181;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    height: 35px;
+    border-radius: 10px;
+}
+@media (min-width: 768px){ 
+    #container{
+        flex-direction: row;
+    } 
+    .card{
+        width: 60%;
+        margin: 0 15px;
+    } 
+}
 /*estilos footer*/
 .footer {
     background-color: #038181;
