@@ -8,6 +8,13 @@ html {
 body {
     font-family: 'Playfair Display', serif;
 }
+/*estilos del  carusel*/
+.carousel-inner{
+    height: 600px;
+}
+.d-block{
+    filter: brightness(0.5)
+}
 /*Estilos para la barra de navegacion*/
 .navbar {
     background-color: #038181;
