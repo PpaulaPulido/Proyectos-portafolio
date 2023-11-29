@@ -2,19 +2,12 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-
 }
-
 html {
     scroll-behavior: smooth;
 }
-
 body {
     font-family: 'Playfair Display', serif;
-}
-body, html {
-    margin: 0;
-    padding: 0;
 }
 /*Estilos para la barra de navegacion*/
 .header {
@@ -25,62 +18,51 @@ body, html {
     height: 600px;
     object-fit: cover;
 }
-
 .navbar {
     background-color: transparent;
     width: 100%;
     padding: 10px 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
 .navbar_list {
     display: block;
     margin: 0 auto;
     list-style: none;
     text-align: center;
 }
-
 .navbar_list li {
     margin: 0 20px;
 }
-
 .navbar_list a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
     position: relative;
 }
-
 .navbar_list a::after {
     content: '';
     display: block;
     position: absolute;
     width: 0;
     height: 2px;
-    background-color: rgb(104, 248, 193);
+    background-color: #0ef;
     /* Color de la línea, ajusta según sea necesario */
     bottom: -4px;
     /* Ajusta la posición de la línea debajo del texto */
     transition: width 0.3s ease;
     /* Agrega una transición suave a la anchura de la línea */
 }
-
 .navbar_list a:hover::after {
     width: 100%;
 }
-
 .navbar_list a:hover {
-    color: rgb(104, 248, 193);
+    color: #0ef;
 }
-
 .briefcase {
     font-size: 35px;
 }
-
 .nav-text {
     font-size: 23px;
 }
-
 @media (min-width: 768px) {
     .navbar {
         display: flex;
@@ -105,17 +87,15 @@ body, html {
 }
 
 .header_container {
-    height: 60vh;
-    
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 .header_title {
     height: 100px;
     width: 700px;
-    background-color: #0ef;
+    background-color: rgb(69, 245, 92);
     border-radius: 20px;
     box-shadow: 16px 14px 20px #0000008c;
     position: relative;
@@ -124,16 +104,14 @@ body, html {
     align-items: center;
     justify-content: center;
 }
-
 .header_title::before {
     content: "";
     position: absolute;
     height: 800px;
     width: 800px;
-    background-image: conic-gradient(rgb(44, 2, 122) 20deg, transparent 120deg);
+    background-image: conic-gradient(rgb(245, 51, 25) 20deg, transparent 120deg);
     animation: rotar 2s linear infinite;
 }
-
 @keyframes rotar {
     from {
         transform: rotate(0deg);
