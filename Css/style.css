@@ -150,7 +150,7 @@ main{
 }
 .main{
     background-color: #fff;
-   padding: 10px;
+    padding: 10px;
     margin: 30px 0;
     border-radius: 20px;
     box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
@@ -160,7 +160,7 @@ main{
     margin: 50px auto;
 }
 .swiper {
-    width: 950px;
+    width: 990px;
 }
 .card-content {
     position: relative;
@@ -190,15 +190,16 @@ main{
     padding: 20px;
     border-radius: 20px;
     text-align: center;
+
 }
 .card-content h2 {
     color: #fff;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 10px;
     text-shadow:  2px 2px 4px #0ef;
 }
 .image {
-    width: 170px;
+    width: 200px;
     height: 170px;
     overflow: hidden;
     margin: 10px auto;
